@@ -4,7 +4,7 @@ Includes GTK theme and Emerald. Highly recommend using nautilus-elementary http:
 > Notes
 > This theme is in beta stage. I plan on including additional skins for Firefox, Chromium, and other applications. 
 
-> Panel background must be set manually. Navigate to Promethium theme folder > Panel and choose one of the panel backgrounds (eg panel_22.png for a 22 px height panel). 
+> Panel background must be set manually. Navigate to Promethium theme folder Panel and choose one of the panel backgrounds (eg panel_22.png for a 22 px height panel). 
 
 # Requirements
 * Equinox 1.2 http://gnome-look.org/content/show.php/Equinox+GTK+Engine?content=121881
