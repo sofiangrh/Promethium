@@ -1,7 +1,7 @@
 # Description:
 Includes GTK theme and Emerald. Highly recommend using nautilus-elementary http://www.webupd8.org/2010/01/nautilus-elementary-simplified-nautilus.html. 
 
-> Notes
+> Notes:
 > This theme is in beta stage. I plan on including additional skins for Firefox, Chromium, and other applications. 
 
 > Panel background must be set manually. Navigate to Promethium theme folder Panel and choose one of the panel backgrounds (eg panel_22.png for a 22 px height panel). 
