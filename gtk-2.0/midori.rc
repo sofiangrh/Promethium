@@ -1,0 +1,49 @@
+style "midori-main"
+{
+
+	bg_pixmap[NORMAL]		= "/midori/base.png"	
+}
+style "midori-toolbar" 
+{
+	bg[NORMAL]        = @bg_color
+
+	engine "murrine" {
+		contrast		= 1.30
+		toolbarstyle		= 1
+		lightborder_shade	= 1.0
+		gradient_shades     	= {1.0,0.94,0.94,0.88}
+	}
+}
+
+style "midori-entry" = "theme-wider"
+{
+	fg[SELECTED]	= @fg_color
+
+	engine "murrine"
+	{
+		roundness	= 0
+		reliefstyle	= 2
+		gradient_shades	= { 1.1, 1.0, 1.0, 0.9 }
+		highlight_shade	= 1.0
+	}
+}
+
+style "midori-notebook" = "theme-notebook"
+{
+	xthickness	= 0
+	ythickness      = 0
+	GtkNotebook	::tab-overlap	= 0
+}
+
+style "midori-menubar" = "theme-menubar"
+{
+	xthickness	= 1
+	ythickness	= 0
+}
+widget		"MidoriBrowser"							style "midori-main"
+widget_class	"MidoriBrowser*GtkToolbar"					style "midori-toolbar"
+widget_class "*Midori*Entry*"		style "midori-entry"
+widget_class "*Midori*Notebook*"	style "midori-notebook"
+widget_class "*Midori*Scrollbar*"	style "theme-scrollbar"
+widget_class "*Midori*MenuBar*"		style "midori-menubar"
+
